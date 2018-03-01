@@ -26,3 +26,14 @@ JSX
 One of the primary challenges I had with this project was getting the library to work with my set-up. Alot of the beginning was figuring out how to configure the correct packages, and libraries to set-up the react with dynamic UI binding so that it would automatically refresh when something was changes in the code.
 
 Another challenge that I faced was around breaking down the components correctly so that I could make sure the application was well fragmented for code reuse.
+
+### Screenshots
+Gym Day Count:
+![](https://github.com/chanoscar0/GymCounter/blob/master/Screenshots/Screen%20Shot%202018-03-01%20at%2012.20.23%20PM.png)
+
+Add Gym Day:
+![](https://github.com/chanoscar0/GymCounter/blob/master/Screenshots/Screen%20Shot%202018-03-01%20at%2012.20.48%20PM.png)
+
+Table of Gym Days:
+![](https://github.com/chanoscar0/GymCounter/blob/master/Screenshots/Screen%20Shot%202018-03-01%20at%2012.21.00%20PM.png)
+
