@@ -1,5 +1,5 @@
 import MdDirectionsBike from 'react-icons/lib/md/directions-bike'
-import FaHeartbeat from 'react-icons/lib/fa/heartbeat'
+import TiGroup from 'react-icons/lib/ti/group'
 import Calendar from 'react-icons/lib/fa/calendar'
 import {PropTypes} from 'react'
 
@@ -12,7 +12,7 @@ export const GymDayRow = ({gym, date, crowded, kenneth}) =>(
           {gym}
         </td>
         <td>
-          {(crowded) ? <FaHeartbeat /> : null}
+          {(crowded) ? <TiGroup /> : null}
         </td>
         <td>
           {(kenneth) ? <MdDirectionsBike /> : null}
