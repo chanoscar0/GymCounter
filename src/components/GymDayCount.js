@@ -1,6 +1,6 @@
 import '../stylesheets/ui.scss'
 import MdDirectionsBike from 'react-icons/lib/md/directions-bike'
-import FaHeartbeat from 'react-icons/lib/fa/heartbeat'
+import TiGroup from 'react-icons/lib/ti/group'
 import Calendar from 'react-icons/lib/fa/calendar'
 import {PropTypes} from 'react'
 
@@ -21,7 +21,7 @@ export const GymDayCount = ({total=50, goal=100, crowded=15, kenneth=30}) => (
         </div>
         <div className = 'crowded-days'>
           <span>{crowded}</span>
-            <FaHeartbeat />
+            <TiGroup />
           <span>days</span>
 
         </div>
@@ -32,7 +32,7 @@ export const GymDayCount = ({total=50, goal=100, crowded=15, kenneth=30}) => (
 
         </div>
         <div>
-          <span>{calcGoalProgress(total, goal)}</span>
+          <span>{Percentage of Goal (100 days): calcGoalProgress(total, goal)}</span>
 
         </div>
       </div>)
